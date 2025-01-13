@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    
+}
+
+.container-img {
+    
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.container-article {
+    text-align: justify;
+    color: #FFF;
+}
+
+.container-article article {
+    width: 90%;
+}
+
+.container-article b{
+    color: #FFFF00;
+}
+
+.container-article h2 {
+    color: #FFFF00;
+}
+
+.container-article h3 {
+    color: #FFFF00;
+}

@@ -5,219 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JUAN GIRALDO </title>
     <link rel="shortcut icon" href="assets/favicon.ico.png" >
-    <style>
-         
-         body, html {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    height: 100%;
-}
-        body {
-            font-family: "Lucida Console", "Courier New", monospace;
-            background-color: #111;
-            min-height: 100vh;
-           
-        }
-
-        header {
-            text-align: center;
-        }
-
-        body {
-            width: 100%;
-            
-            background-color: #000000;
-        }
-
-        .logo img {
-            max-height: 50px; /* Ajusta el tamaño del logo según sea necesario */
-        }
-
-        nav {
-            background-color: #333; /* Color uniforme */
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 20px;
-        }
-
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
-
-        li {
-            float: left;
-        }
-
-        li a {
-            display: block;
-            color: #FFFF00;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        li a:hover:not(.active) {
-            background-color: #111;
-        }
-
-        .active {
-            background-color: #92a4ff;
-        }
-
-        h1 {
-           
-            margin: 0;
-            color: #FFFF00;
-           
-        }
-
-        h2 {
-            font-size: 24px;
-            text-align: center;
-            color: white;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 100%;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        p {
-            font-size: 16px;
-            line-height: 1.5;
-            margin-bottom: 20px;
-        }
-
-        .image {
-            float: right;
-            margin: 0 0 20px 20px;
-            max-width: 25%;
-            height: auto;
-        }
-
-        .image2 {
-            float: left;
-            margin: 0 20px 20px 0;
-            max-width: 25%;
-            height: auto;
-        }
-        .article {
-            float: left;
-            width: 70%;
-            background-color: #FFF;
-            padding: 10px;
-            margin: 10px;
-            border: 1px solid #CCC;
-        }
-
-        .icons {
-            display: flex;
-            justify-content: center;
-
-        }
-
-        
-
-        .imgheader img {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-                       
-        }
-
-        
-
-        .footer {
-            background-color: #333; /* Color oscuro para el fondo */
-    color: #FFF; /* Texto blanco */
-    padding: 10px 0; /* Reduce el espacio superior e inferior */
-    text-align: center; /* Centrado */
-    font-size: 12px; /* Tamaño pequeño para el texto */
-    position: fixed; /* Fija el footer al fondo */
-    left: 0;
-    bottom: 0; /* Fija al fondo */
-    width: 100%; /* Asegura que el footer ocupe todo el ancho */
-    z-index: 1000; /* Asegura que el footer quede encima de otros elementos */
-}
-
-.footer-content {
-    max-width: 100%; /* Ancho máximo para que el footer no se estire demasiado */
-    margin: 0 auto; /* Centrado del contenido */
-    padding: 0 10px; /* Añadir un poco de espacio horizontal */
-}
-
-.footer p {
-    margin: 5px 0; /* Márgenes pequeños para los textos */
-    font-size: 12px; /* Mantener texto pequeño */
-}
-
-.social-icons {
-    margin-top: 8px;
-    text-align: center; /* Asegura que los iconos estén centrados */
-}
-
-.social-icons svg {
-    margin: 0 8px; /* Separación entre los iconos */
-    cursor: pointer; /* Indicar que los iconos son interactivos */
-    transition: transform 0.3s ease;
-    width: 20px; /* Iconos pequeños */
-    height: 20px; /* Iconos pequeños */
-}
-
-.social-icons svg:hover {
-    transform: scale(1.1); /* Efecto de hover para agrandar los iconos */
-}
-
-.container-header {
-    height: 100%;
- background-color: rgb(0, 0, 0);
- padding: 9rem 0;
- background-image: url(./assets/imagenbackground.jpg);
- background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-bottom: 1rem;
-}
-
-.icons {
-    margin-top: .5rem;
-    gap: .5rem;
-}
-
-.container-header h1 {
-    margin-top: .5rem;
-}
-
-.container-header h2 {
-    margin-top: .3rem;
-}
-
-svg:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    transition: transform 0.3s ease;
-
-}
-
-.logo img:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    transition: transform 0.3s ease;
-
-}
-    </style>
-
-
-    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles/index.css">
 
 </head>
 <body>
@@ -228,8 +17,8 @@ svg:hover {
                 <a href="index.html"><img src="assets/favicon.ico.png" alt="Logo"></a>
             </div>
             <ul>
-                <li><a href="index.html">¿Quien soy?</a></li>
-                <li><a href="habilidades.html">Habilidades</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quien_soy.html">¿Quien Soy?</a></li>
                 <li><a href="portafolio.html">Portafolio</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
@@ -261,10 +50,6 @@ svg:hover {
     <body>
 
   
-    
-
-    <hr>
-
     <article>
 
 
@@ -273,13 +58,13 @@ svg:hover {
 
 <footer class="footer">
     <div class="footer-content">
-        <!-- Texto de derechos reservados -->
+      
         <p>Todos los derechos reservados &copy; 2025</p>
         
-        <!-- Texto para redes sociales -->
+   
         <p>VISITA MIS REDES SOCIALES</p>
 
-        <!-- Iconos de redes sociales -->
+    
         <div class="social-icons">
     <a href="http://www.instagram.com/juangiraldo_design/" target="_blank"> <svg height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="#FFFF00"></path> <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="#FFFF00"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z" fill="#FFFF00"></path> </g></svg></a>
 
