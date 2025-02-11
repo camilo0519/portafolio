@@ -1,164 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JUAN GIRALDO </title>
-    <link rel="shortcut icon" href="assets/favicon.ico.png" >
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="styles/proyectos.css">
-
+    <link rel="stylesheet" href="adivinanzastyle.css">
+    <title>Juego de adivinar el número</title>
 </head>
+
 <body>
-    <header>
-       
-        <nav>
-            <div class="logo">
-                <a href="index.html"><img src="assets/favicon.ico.png" alt="Logo"></a>
-            </div>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="quien_soy.html">¿Quien Soy?</a></li>
-                <li><a href="portafolio.html">Portafolio</a></li>
-                <li><a href="proyectos.html">Proyectos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-        
-    </header>
 
-    <div class="ag-format-container">
-        <div class="ag-courses_box">
-            <!-- calculadora -->
-          <div class="ag-courses_item">
-            <a href="projectsjs/calculadora/calculadoraindex.html"  class="ag-courses-item_link">
-              <div class="ag-courses-item_bg"></div>
-      
-              <div class="ag-courses-item_title">
-               Calculador JS
-              </div>
-      
-              <div class="ag-courses-item_date-box">
-                Start:
-                <span class="ag-courses-item_date">
-                  Enero - 2025
-                </span>
-              </div>
-            </a>
-          </div>
-
-          <!-- adivinanza -->
-      
-          <div class="ag-courses_item">
-            <a href="projectsjs/adivinanza/adivinanzaindex.html" class="ag-courses-item_link">
-              <div class="ag-courses-item_bg"></div>
-      
-              <div class="ag-courses-item_title">
-                Adivinanza
-              </div>
-      
-              <div class="ag-courses-item_date-box">
-                Start:
-                <span class="ag-courses-item_date">
-                  Febrero - 2025
-                </span>
-              </div>
-            </a>
-          </div>
-      
-          <div class="ag-courses_item">
-            <a href="#" class="ag-courses-item_link">
-              <div class="ag-courses-item_bg"></div>
-      
-              <div class="ag-courses-item_title">
-                Annual package "Product+UX/UI+Graph designer&#160;2022"
-              </div>
-      
-              <div class="ag-courses-item_date-box">
-                Start:
-                <span class="ag-courses-item_date">
-                  04.11.2022
-                </span>
-              </div>
-            </a>
-          </div>
-      
-          <div class="ag-courses_item">
-            <a href="#" class="ag-courses-item_link">
-              <div class="ag-courses-item_bg"></div>
-      
-              <div class="ag-courses-item_title">
-                Graphic Design
-              </div>
-      
-              <div class="ag-courses-item_date-box">
-                Start:
-                <span class="ag-courses-item_date">
-                  04.11.2022
-                </span>
-              </div>
-            </a>
-          </div>
-      
-          <div class="ag-courses_item">
-            <a href="#" class="ag-courses-item_link">
-              <div class="ag-courses-item_bg"></div>
-      
-              <div class="ag-courses-item_title">
-                Motion Design
-              </div>
-      
-              <div class="ag-courses-item_date-box">
-                Start:
-                <span class="ag-courses-item_date">
-                  30.11.2022
-                </span>
-              </div>
-            </a>
-          </div>
-      
-          <div class="ag-courses_item">
-            <a href="#" class="ag-courses-item_link">
-              <div class="ag-courses-item_bg"></div>
-      
-              <div class="ag-courses-item_title">
-                Front-end development&#160;+ jQuery&#160;+ CMS
-              </div>
-            </a>
-          </div>
-      
-          <div class="ag-courses_item">
-            <a href="#" class="ag-courses-item_link">
-              <div class="ag-courses-item_bg">
-              </div>
-              <div class="ag-courses-item_title">
-                Digital Marketing
-              </div>
-            </a>
-          </div>
-      
-          <div class="ag-courses_item">
-            <a href="#" class="ag-courses-item_link">
-              <div class="ag-courses-item_bg"></div>
-      
-              <div class="ag-courses-item_title">
-                Interior Design
-              </div>
-      
-              <div class="ag-courses-item_date-box">
-                Start:
-                <span class="ag-courses-item_date">
-                  31.10.2022
-                </span>
-              </div>
-            </a>
-          </div>
-      
+    <nav>
+        <div class="logo">
+            <a href="/index.html"><img src="/assets/favicon.ico.png" alt="Logo"></a>
         </div>
-      </div>
+        <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/quien_soy.html">¿Quien Soy?</a></li>
+            <li><a href="/portafolio.html">Portafolio</a></li>
+            <li><a href="/proyectos.html">Proyectos</a></li>
+            <li><a href="/contacto.html">Contacto</a></li>
+            
+        </ul>
+    </nav>
+  
+    <img class="imgtitulo" src="/projectsjs/adivinanza/guessthenumber.png">
+    <p class="text1">Introduce un número entre 1 y 100:</p>
+    <input type="number" id="numeroEntrada">
+    <button onclick="chequearResultado()">Comprobar</button>
+    <p id="mensaje"> !A Jugar¡</p>
+    <h3>Número de intentos:<p id='intento'> 0 </p> </h3>
 
-   
-
+    <div class="botonregresar">
+        <button type="button" onclick="window.location.href='/proyectos.html'">REGRESAR</button>
+    </div>
 
     <footer class="footer">
         <div class="footer-content">
@@ -181,5 +57,7 @@
         </div>
     </footer>
 
+    <script src="adivinanzaScript.js"></script>
 </body>
+
 </html>

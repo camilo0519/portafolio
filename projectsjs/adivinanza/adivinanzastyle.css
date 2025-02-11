@@ -1,0 +1,144 @@
+body {
+    text-align: center;
+    background-color: #111;
+  }
+
+  .imgtitulo {
+    padding: 1rem;
+  }
+  
+
+  
+  input {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #mensaje {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .text1 {
+    color: white;
+    font-size: xx-large;
+  }
+
+  h3 {
+    color: white;
+  }
+
+  nav {
+    background-color: #333; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #FFFF00;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+} 
+
+  .footer {
+    font-family: "Lucida Console", "Courier New", monospace;  
+    background-color: #333; 
+      color: #FFF; 
+      padding: 10px 0; 
+      text-align: center; 
+      font-size: 12px;
+      position: fixed; 
+      left: 0;
+      bottom: 0; 
+      width: 100%; 
+      z-index: 1000; /* Asegura que esté encima de otros elementos */
+      
+  }
+  
+  .footer-content {
+      max-width: 100%; 
+      margin: 0 auto; 
+      padding: 0 10px; 
+  }
+  
+  .footer p {
+  margin: 5px 0; 
+  font-size: 12px; 
+  }
+  
+  .social-icons {
+  margin-top: 8px;
+  text-align: center;
+  }
+  
+  .social-icons svg {
+  margin: 0 8px; 
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  width: 20px; 
+  height: 20px;
+  }
+  
+  .social-icons svg:hover {
+  transform: scale(1.1); 
+  }
+  
+  .botonregresar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .botonregresar button {
+     
+    padding: 10px 20px;
+    background-color: #FFFF00; 
+    color: rgb(0, 0, 0);  
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  
+  
+  }
+  
+  .botonregresar button:hover {
+    background-color:#6d6d05; 
+  }
+    
+  
